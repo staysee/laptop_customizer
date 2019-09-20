@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FeaturesList from './FeaturesList/FeaturesList'
 
 // Normalizes string as a slug - a string that is safe to use
 // in both URLs and html attributes
@@ -101,10 +102,8 @@ class App extends Component {
           <h1>ELF Computing | Laptops</h1>
         </header>
         <main>
-          <form className="main__form">
-            <h2>Customize your laptop</h2>
-            {features}
-          </form>
+          <FeaturesList 
+            features={this.props.features} />
           <section className="main__summary">
             <h2>Your cart</h2>
             {summary}

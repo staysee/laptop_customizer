@@ -12,7 +12,7 @@ class FeaturesList extends React.Component {
                     feature={feature}
                     options={this.props.features[feature]}
                     selected={this.props.selected}
-                    updateFeature={this.updateFeature}
+                    updateFeature={this.props.updateFeature}
                 />
             )
         })

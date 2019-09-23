@@ -47,8 +47,7 @@ class App extends Component {
             selected={this.state.selected}
           />
             
-          <Summary 
-            selected={this.state.selected} />
+          <Summary selected={this.state.selected} />
         </main>
       </div>
     );

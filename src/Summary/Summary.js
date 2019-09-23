@@ -1,6 +1,7 @@
 import React from 'react'
 import SummaryItems from '../SummaryItems/SummaryItems'
 import SummaryTotal from '../SummaryTotal/SummaryTotal'
+import './Summary.css'
 
 
 class Summary extends React.Component {
